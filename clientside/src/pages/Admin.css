@@ -1,0 +1,68 @@
+#admin-container h2{
+    margin: 100px;
+    color:rgb(242, 0, 255);
+    position: fixed;
+    top:100px;
+}
+#admin-container h3{
+    margin: 100px;
+    color:rgb(255, 136, 0);
+    position: fixed;
+    top:150px;
+}
+#admin-container h4{
+    margin: 100px;
+    color:rgb(0, 0, 0);
+    position: fixed;
+    top:150px;
+} 
+#admin-container h5{
+    width: 140px;
+    height:4px;
+    margin-top: 110px;
+    margin-left: 115px;
+    background-color: rgb(0, 255, 242);
+    position: fixed;
+    top:120px;
+}
+#admin-container .admin-main-container{
+    gap:100px;
+    margin-top:100px;
+    margin-left: 400px;
+}
+#admin-container .admin-main-container .admin-user{
+    border:1px solid grey;
+    border-radius: 10px;
+    width:700px;
+    display: flex;
+    padding: 20px;
+    margin-top:20px;
+    box-shadow: 10px 10px 20px grey;
+}
+#admin-container .admin-main-container .admin-user .admin-text{
+   margin-top: 30px;
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
+}
+#admin-container .admin-main-container .admin-user .admin-detail{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#admin-container .admin-main-container .admin-user .admin-delete-btn{
+    transition: 0.5s;
+    width:50px;
+    height: 50px;
+    margin-top:40px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+#admin-container .admin-main-container .admin-user .admin-delete-btn:hover{
+   background-color: white;
+
+
+}

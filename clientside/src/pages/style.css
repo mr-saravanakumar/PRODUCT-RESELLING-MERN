@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color:black;
+    background-size:cover;
+}
+.header{
+    display: flex;
+    background-color:white;
+    width:1519px;
+    height: 50px;
+    position: sticky;
+    top:0px;
+}
+.text{
+    height: 20px;
+    margin-left: 1100px;
+    margin-top: 20px;
+    border:none;
+    outline: 0;
+    border-bottom: 2px solid red;
+    font-family:cursive;
+}
+.text:focus{
+    border-bottom: 2px solid blue;
+}
+.img{
+    width:150px;
+    height:150px;
+    object-fit: contain; 
+}
+.container{
+    padding:10px;
+    margin-top:10px;
+    width:150px;
+    height:230px;
+    background-color: rgb(129, 161, 189);
+    border-radius:10px;
+}
+.container:hover{
+    margin-top: 5px;
+}
+.product-container{ 
+  margin:50px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  cursor: pointer;
+}
+.right{
+    display:flex;
+}
+.search-field{
+    background-color:cadetblue;
+    padding:40px 30px;
+    width:250px;
+    height:200px;
+    margin-left: -140px;
+    margin-top: 100px;
+    position:sticky;
+    top: 50px;
+    border-radius: 20px;
+
+}
+.search-field ul{
+    list-style-type:none;
+}
+.search-field input{
+    outline: none;
+    border:none;
+}
+.search-field ul li{
+    cursor: pointer;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search-field ul li:hover{
+    color:powderblue;
+}
+#imges{
+    color:white;
+    border: 2px solid red;
+}
+#selected{
+    font-size: 10px;
+}
+#imges img{
+    width:200px;
+    height: 200px;
+}

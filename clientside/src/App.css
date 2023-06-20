@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bungee&family=Changa:wght@200&family=Cinzel&family=Sono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Concert+One&family=Exo+2:ital,wght@0,100;1,100&family=Kodchasan:wght@200&family=Orbitron&family=Poppins:ital,wght@0,100;0,200;0,400;0,800;1,500&family=Rampart+One&family=Rubik+Iso&display=swap');
+*{
+  margin:0;
+  padding:0;
+  color:#020202;
+}
+body{
+  background-color:whitesmoke;
+  /* background: linear-gradient(132deg, rgb(249, 206, 183) 0.00%, rgb(173, 209, 242) 100.00%); */
+  /* background-image: linear-gradient(to right top, #212ae3, #0067ff, #008fff, #00b1fc, #00ceef, #16d9ea, #3ce4e1, #5eedd7, #7cebd9, #95e8db, #aae6dc, #bee3dd);  */
+  /* background-image: linear-gradient(to bottom, #2f00ee, #0061ff, #008bff, #00acfe, #00c8ea, #4dd3e3, #74ddde, #96e6db, #a1e5db, #abe5dc, #b5e4dc, #bee3dd); */
+  /* background-image: linear-gradient(to right bottom, #2202ff, #0076ff, #00a6ff, #00ccfd, #12ebdf); */
+  /* background-image: linear-gradient(to top bottom ,#2202ff, #0076ff, #00a6ff, #00ccfd, #12ebdf); */
+  /* background-image: linear-gradient(to left bottom, #00fcb1, #00dbe6, #00b3ff, #0080ff, #2100ff); */
+  /* background-image: linear-gradient(to right bottom, #55b4b2, #32c8b9, #00dbb9, #00edb1, #00ffa1); */
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  /* background-image: linear-gradient(to right bottom, #5819c3, #005ce7, #0084f5, #00a6f3, #00c4ec, #3ad2eb, #5ddfe9, #7dece8, #76f0ea, #6ff4eb, #67f7ec, #5ffbed); */
+  /* background-image: linear-gradient(to right bottom, #6bd16f, #60d78c, #5adca6, #5ee1bd, #6be4d1, #4edfdc, #2edae8, #00d3f2, #00c1ff, #00abff, #0092ff, #5f71fb); */
+  width: 100vw;
+  height: 100vh;
+
+}
+.header{
+  display: flex;
+  position:relative;
+  width:100%;
+  height: 60px;
+  position: fixed;
+  top:0;
+  z-index:999;
+  background-color:transparent;
+  backdrop-filter: blur(30px);
+}
+ul{
+  margin-left: 500px;
+  margin-top: 17px;
+  display: flex;
+}
+ul li{
+  text-indent: 25px;
+  font-size:18px;
+  list-style-type: none;
+  font-family: 'Rubik Iso', cursive;
+}
+.nav
+{
+  transition: 2s;
+  text-decoration-line: none;
+  color:#020202;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.nav:hover{
+  transition: 1.2s;
+  background-color: rgb(255, 0, 212);
+  color:rgb(255, 255, 255);
+}
+.active{
+  border-radius: 5px;
+  transition: 2s;
+  border:2px solid rgb(255, 0, 230);
+  background-color: rgb(255, 0, 212);
+  color:rgb(255, 255, 255);
+}
+.logout{
+  transition: 1.5s;
+  background-color:red;
+  border:none;
+  color:white;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top:-5px;
+  cursor: pointer;
+  border-radius:10px;
+}
+.logout:hover{
+  transition: 0.5s;
+  background-color:white;
+  color: black;
+  border: 1px solid red;
+}
+p{
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.combine{
+  display:flex;
+}
+.icons{
+ color:rgb(172, 237, 6);
+}
+#RL{
+  transition:1.5s;
+  font-family:'Sono', sans-serif;
+  margin:1450px;
+  border-radius: 10px;
+  padding: 10px;
+  color:rgb(255, 255, 255);
+  border: 3px solid #09ff00;
+  background-color:#09ff00;
+}
+#RL:hover{
+  transition:1.5s;
+  color:#020202;
+  background-color: #ffffff;
+}
+#search{
+  border-bottom: 2px solid black;
+  width:200px;
+  height: 20px;
+  margin-left: 200px;
+}
+#searchicon{
+  margin-left: -20px;
+  margin-top: 3px;
+}
+#project{
+  color:rgb(0, 0, 0);
+  font-family: 'Bungee', cursive;
+  margin-left: 40px;
+  margin-top: 5px;
+  background: -webkit-linear-gradient(#d4fe00, #ff0088);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  -webkit-text-stroke:  1px;
+}

@@ -1,0 +1,51 @@
+.mysell {
+    margin-left:250px;
+    margin-top: 150px;
+    display:grid;
+    gap:200px;
+    grid-template-columns: 400px 400px;
+}
+.mysell-main .underline {
+    margin-left:720px;
+    margin-top:10px;
+    background-color: cornflowerblue;
+    width:100px;
+}
+.mysell-main p{
+    margin-top:100px;
+}
+.mysell .mysell-img{
+    width:300px;
+    height: 200px;
+}
+.mysell-container{
+    display:flex;
+    
+    width:450px;
+    height: 230px;
+    padding: 20px;
+    box-shadow: 20px 20px 50px grey;
+}
+.mysell .mysell-bottom{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.mysell .mysell-bottom span{
+    font-size:20px;
+    font-family:cursive;
+}
+.mysell .mysell-btn{
+    transition: 0.5s;
+   width: 300px;
+   height: 30px;
+   background-color: rgb(255, 0, 0);
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+.mysell .mysell-btn:hover{
+    transition: 0.5s;
+    background-color: white;
+    border:1px solid red;
+    color:black;
+}

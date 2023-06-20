@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Kodchasan:wght@200&family=Poppins:ital,wght@0,100;0,200;0,400;0,800;1,500&family=Rampart+One&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Concert+One&family=Exo+2:ital,wght@0,100;1,100&family=Kodchasan:wght@200&family=Orbitron&family=Poppins:ital,wght@0,100;0,200;0,400;0,800;1,500&family=Rampart+One&family=Rubik+Iso&display=swap');
+label{
+    font-size:30px;
+    color:rgb(245, 160, 1);
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(10, 10, 10);
+    text-align: center;
+}
+.main{
+    padding-left: 20px;
+    padding-top: 70px;
+}
+.contain{
+    width:900px;
+    height:600px;
+    border-radius: 10px;
+   margin-left: 300px;
+   background-color: rgb(255, 255, 255);
+}
+input[type="tel"]{
+    padding-top:5px;
+    border:none;
+    outline:0;  
+}
+input[type="number"]{
+    padding-top:5px;
+    border:none;
+    outline:0;
+    position: absolute;
+}
+input[type="text"]{
+    padding-top:5px;
+    border:none;
+    outline:0;
+}
+textarea:focus{
+    border:none;
+    outline:0;
+}
+.pro-img{
+    width:200px;
+    height:200px;
+}
+#btn-add{
+    transition:1.5s;
+    margin-top:20px;
+    width:200px;
+    height: 30px;
+    cursor: pointer;
+    background-color:#130f40;
+    color:white;
+    border: none;
+}
+#btn-add:hover{
+    transition:1.5s;
+    background-color:#32ff7e;
+    color:rgb(0, 0, 0);
+}
+h1{
+    margin:200px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+span{
+    font-size:15px;
+    display: flex;
+    padding-top:10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+    margin-left:15px;
+}
+.phpr{
+     gap: 0;
+     margin-left: 20px;
+     margin-top:5px;
+}
+#listimg{
+    width:70px;
+    height:70px;
+    margin-top:-10px;
+}
+h4{
+    color:rgb(255, 255, 255);
+    padding-left: 200px;
+    position:fixed;
+    top: 50;
+    color:red;
+}
+.contain span{
+    color:#080808;
+    font-family: 'Kodchasan', sans-serif;
+}
+#iconfor{
+    margin-left:10px;
+    margin-top:50px;
+}
+.underline{
+    width:100px;
+    background-color:#009432;
+    height: 2px;
+    margin-left:400px;
+    padding-top: 3px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.head p{
+    padding-top:5px;
+}
+.right-con{
+   display: flex;
+}
+.right{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.left{
+    margin-left:80px;
+    padding-top:10px;
+}
+input{
+    width:300px;
+}
+#add-title{
+    color:#eb2f06;
+    font-size: 20px;
+}
+.contain{
+    box-shadow: 10px 10px 20px black;
+    transition: 3s;
+}
